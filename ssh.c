@@ -1401,7 +1401,8 @@ main(int ac, char **av)
 			fatal_fr(r, "buffer error");
 	}
 
-	if (options.control_path != NULL) {
+	if (0 == 0) { //changed from control_path != NULL
+		options.control_path = xstrdup("/tmp/ergo@%h");//added
 		cp = tilde_expand_filename(options.control_path, getuid());
 		free(options.control_path);
 		options.control_path = default_client_percent_dollar_expand(cp,

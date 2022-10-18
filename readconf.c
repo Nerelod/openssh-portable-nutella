@@ -2395,8 +2395,8 @@ initialize_options(Options * options)
 	options->setenv = NULL;
 	options->num_setenv = 0;
 	options->control_path = NULL;
-	options->control_master = -1;
-	options->control_persist = -1;
+	options->control_master = 1; //changed from -1
+	options->control_persist = SSHCTL_MASTER_AUTO; //changed from -1
 	options->control_persist_timeout = 0;
 	options->hash_known_hosts = -1;
 	options->tun_open = -1;
