@@ -137,7 +137,11 @@
 /* #undef DISABLE_WTMP */
 
 /* Define if you don't want to use wtmpx */
+<<<<<<< HEAD
 /* #undef DISABLE_WTMPX */
+=======
+#define DISABLE_WTMPX 1
+>>>>>>> 189d972e9 (modified gitignore)
 
 /* Enable for PKCS#11 support */
 #define ENABLE_PKCS11 /**/
@@ -380,7 +384,11 @@
 
 /* Define to 1 if you have the declaration of `memmem', and to 0 if you don't.
    */
+<<<<<<< HEAD
 #define HAVE_DECL_MEMMEM 1
+=======
+#define HAVE_DECL_MEMMEM 0
+>>>>>>> 189d972e9 (modified gitignore)
 
 /* Define to 1 if you have the declaration of `NFDBITS', and to 0 if you
    don't. */
@@ -526,7 +534,11 @@
 /* #undef HAVE_EVP_CIPHER_CTX_GET_IV */
 
 /* Define to 1 if you have the `EVP_CIPHER_CTX_get_updated_iv' function. */
+<<<<<<< HEAD
 #define HAVE_EVP_CIPHER_CTX_GET_UPDATED_IV 1
+=======
+/* #undef HAVE_EVP_CIPHER_CTX_GET_UPDATED_IV */
+>>>>>>> 189d972e9 (modified gitignore)
 
 /* Define to 1 if you have the `EVP_CIPHER_CTX_iv' function. */
 #define HAVE_EVP_CIPHER_CTX_IV 1
@@ -1315,7 +1327,11 @@
 #define HAVE_SIGACTION 1
 
 /* Define to 1 if the system has the type `sighandler_t'. */
+<<<<<<< HEAD
 #define HAVE_SIGHANDLER_T 1
+=======
+/* #undef HAVE_SIGHANDLER_T */
+>>>>>>> 189d972e9 (modified gitignore)
 
 /* Define to 1 if you have the `sigvec' function. */
 /* #undef HAVE_SIGVEC */
@@ -1937,9 +1953,12 @@
 /* Define as const if snprintf() can declare const char *fmt */
 #define SNPRINTF_CONST const
 
+<<<<<<< HEAD
 /* sockaddr_in has sin_len */
 /* #undef SOCK_HAS_LEN */
 
+=======
+>>>>>>> 189d972e9 (modified gitignore)
 /* Define to a Set Process Title type if your system is supported by
    bsd-setproctitle.c */
 #define SPT_TYPE SPT_REUSEARGV

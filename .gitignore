@@ -1,4 +1,22 @@
+<<<<<<< HEAD
 **/*.0
+=======
+Makefile
+<<<<<<< HEAD
+buildpkg.sh
+config.h
+config.h.in~
+config.log
+config.status
+openbsd-compat/Makefile
+openbsd-compat/regress/Makefile
+openssh.xml
+opensshd.init
+survey.sh
+=======
+**/*.0
+>>>>>>> 2fa3550de (modified gitignore)
+>>>>>>> 189d972e9 (modified gitignore)
 **/*.o
 **/*.lo
 **/*.so
