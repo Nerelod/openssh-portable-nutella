@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 **/*.0
 =======
+=======
+>>>>>>> 839ffcdee (added makefile to gitignore)
 Makefile
 <<<<<<< HEAD
 buildpkg.sh
@@ -14,6 +17,8 @@ openssh.xml
 opensshd.init
 survey.sh
 =======
+=======
+>>>>>>> eece86cad (added makefile to gitignore)
 **/*.0
 >>>>>>> 2fa3550de (modified gitignore)
 >>>>>>> 189d972e9 (modified gitignore)
