@@ -27,9 +27,12 @@ survey.sh
 **/*.so
 **/*.out
 **/*.a
+<<<<<<< HEAD
 **/*.un~
 **/.*.swp
 autom4te.cache/
+=======
+>>>>>>> 0b545e9bd (updated gitignore)
 scp
 sftp
 sftp-server
@@ -43,7 +46,10 @@ ssh-pkcs11-helper
 ssh-sk-helper
 sshd
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0699d4fae (once again updated gitignore)
 sshd-session
 sshd-auth
 !regress/misc/fuzz-harness/Makefile
@@ -51,3 +57,15 @@ sshd-auth
 tags
 >>>>>>> 3b240cc44 (Updated gitignore to ignore sshd-session and sshd-auth targets)
 
+<<<<<<< HEAD
+=======
+# Ignored on main branch
+config.h.in
+configure
+aclocal.m4
+ChangeLog
+**/*.0
+=======
+
+>>>>>>> 0b545e9bd (updated gitignore)
+>>>>>>> 0699d4fae (once again updated gitignore)
