@@ -4,7 +4,6 @@
 **/*.so
 **/*.out
 **/*.a
-autom4te.cache/
 scp
 sftp
 sftp-server
@@ -17,6 +16,4 @@ ssh-keysign
 ssh-pkcs11-helper
 ssh-sk-helper
 sshd
-!regress/misc/fuzz-harness/Makefile
-!regress/unittests/sshsig/Makefile
-tags
+
