@@ -19,4 +19,12 @@ ssh-keysign
 ssh-pkcs11-helper
 ssh-sk-helper
 sshd
+<<<<<<< HEAD
+=======
+sshd-session
+sshd-auth
+!regress/misc/fuzz-harness/Makefile
+!regress/unittests/sshsig/Makefile
+tags
+>>>>>>> 3b240cc44 (Updated gitignore to ignore sshd-session and sshd-auth targets)
 
