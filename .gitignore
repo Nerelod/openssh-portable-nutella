@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**/*.0
-=======
-=======
->>>>>>> 839ffcdee (added makefile to gitignore)
-=======
-
->>>>>>> 58c34a9f0 (fixed gitignore)
 Makefile
 buildpkg.sh
 config.h
@@ -19,12 +9,6 @@ openbsd-compat/regress/Makefile
 openssh.xml
 opensshd.init
 survey.sh
-**/*.0
-<<<<<<< HEAD
->>>>>>> 2fa3550de (modified gitignore)
->>>>>>> 189d972e9 (modified gitignore)
-=======
->>>>>>> 58c34a9f0 (fixed gitignore)
 **/*.o
 **/*.lo
 **/*.so
@@ -33,9 +17,6 @@ survey.sh
 **/*.un~
 **/.*.swp
 autom4te.cache/
-<<<<<<< HEAD
-=======
->>>>>>> 0b545e9bd (updated gitignore)
 scp
 sftp
 sftp-server
@@ -48,30 +29,15 @@ ssh-keysign
 ssh-pkcs11-helper
 ssh-sk-helper
 sshd
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 0699d4fae (once again updated gitignore)
 sshd-session
 sshd-auth
 !regress/misc/fuzz-harness/Makefile
 !regress/unittests/sshsig/Makefile
 tags
->>>>>>> 3b240cc44 (Updated gitignore to ignore sshd-session and sshd-auth targets)
 
-<<<<<<< HEAD
-=======
 # Ignored on main branch
 config.h.in
 configure
 aclocal.m4
 ChangeLog
 **/*.0
-=======
-
->>>>>>> 0b545e9bd (updated gitignore)
->>>>>>> 0699d4fae (once again updated gitignore)
-=======
-
->>>>>>> 58c34a9f0 (fixed gitignore)
