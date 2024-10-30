@@ -1,11 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **/*.0
 =======
 =======
 >>>>>>> 839ffcdee (added makefile to gitignore)
+=======
+
+>>>>>>> 58c34a9f0 (fixed gitignore)
 Makefile
-<<<<<<< HEAD
 buildpkg.sh
 config.h
 config.h.in~
@@ -16,21 +19,21 @@ openbsd-compat/regress/Makefile
 openssh.xml
 opensshd.init
 survey.sh
-=======
-=======
->>>>>>> eece86cad (added makefile to gitignore)
 **/*.0
+<<<<<<< HEAD
 >>>>>>> 2fa3550de (modified gitignore)
 >>>>>>> 189d972e9 (modified gitignore)
+=======
+>>>>>>> 58c34a9f0 (fixed gitignore)
 **/*.o
 **/*.lo
 **/*.so
 **/*.out
 **/*.a
-<<<<<<< HEAD
 **/*.un~
 **/.*.swp
 autom4te.cache/
+<<<<<<< HEAD
 =======
 >>>>>>> 0b545e9bd (updated gitignore)
 scp
@@ -69,3 +72,6 @@ ChangeLog
 
 >>>>>>> 0b545e9bd (updated gitignore)
 >>>>>>> 0699d4fae (once again updated gitignore)
+=======
+
+>>>>>>> 58c34a9f0 (fixed gitignore)
