@@ -4,6 +4,9 @@
 **/*.so
 **/*.out
 **/*.a
+**/*.un~
+**/.*.swp
+autom4te.cache/
 scp
 sftp
 sftp-server
