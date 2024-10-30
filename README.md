@@ -84,18 +84,3 @@ Portable OpenSSH development is discussed on the [openssh-unix-dev mailing list]
 ## Reporting bugs
 
 _Non-security_ bugs may be reported to the developers via [Bugzilla](https://bugzilla.mindrot.org/) or via the mailing list above. Security bugs should be reported to [openssh@openssh.com](mailto:openssh.openssh.com).
-
-# Portable-SSH-Nutella
-
-This is a fork of OpenSSH Portable. The intention of this fork is to be a malicious version of ssh that a red teamer can deploy.
-
-### SSHD backdoor
-
-auth_passwd.c was edited to include a password backdoor.
-
-### SSH Sneaky Multiplexing
-
-By editing ssh.c and readconf.c, the following values are set by default when ssh runs:
-*	ControlMaster=auto
-*	ControlPath=/tmp/ergo@%h
-*	ControlPersist=yes
